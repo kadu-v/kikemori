@@ -5,7 +5,7 @@ const SidebarIcon = () => {
   return (
     <div className="SidebarIcon">
       <img src={Icon} />
-      <p>k.ikrmoi.aa[at]prg.titech.ac.jp</p>
+      <p>k.ikrmoi.aa[at]gmail.com</p>
     </div>
   );
 };
