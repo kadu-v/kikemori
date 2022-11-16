@@ -11,8 +11,9 @@
 }
 
 .SidebarIcon img {
-  height: 100px;
+  height: 110px;
   width: 100px;
+  padding-bottom: 10px;
 }
 
 .SidebarIcon p {

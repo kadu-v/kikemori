@@ -3,7 +3,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import ConstructionIcon from "@mui/icons-material/Construction";
 
-export const SidebarData = [
+const SidebarData = [
   {
     title: "Home",
     icon: <HomeIcon />,
@@ -17,7 +17,7 @@ export const SidebarData = [
   {
     title: "Works",
     icon: <ConstructionIcon />,
-    link: "works",
+    link: "/works",
   },
 ];
 export default SidebarData;
