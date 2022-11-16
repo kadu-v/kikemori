@@ -12,7 +12,7 @@ const SidebarData = [
   {
     title: "Publications",
     icon: <AutoStoriesIcon />,
-    link: "/publication",
+    link: "/publications",
   },
   {
     title: "Works",

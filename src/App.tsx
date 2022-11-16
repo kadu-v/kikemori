@@ -1,12 +1,12 @@
 import "./App.css";
 import Sidebar from "./components/Sidebar";
-import Home from "./components/Home";
+import Contents from "./components/Contents";
 
 function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Home />
+      <Contents link={window.location.pathname} />
     </div>
   );
 }
