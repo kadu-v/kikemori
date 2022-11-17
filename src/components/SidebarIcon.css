@@ -1,0 +1,29 @@
+.SidebarIcon {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.SidebarIcon img {
+  height: 110px;
+  width: 100px;
+  padding-bottom: 10px;
+}
+
+.SidebarIcon p {
+  color: white;
+}
+
+.SNSIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.SNSIcon {
+  width: calc(100% / 5);
+  color: inherit;
+  padding-top: 10px;
+  text-align: center;
+}

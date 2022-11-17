@@ -4,22 +4,6 @@
   background-color: darkslategray;
 }
 
-.SidebarIcon {
-  padding-top: 20px;
-  padding-bottom: 15px;
-  text-align: center;
-}
-
-.SidebarIcon img {
-  height: 110px;
-  width: 100px;
-  padding-bottom: 10px;
-}
-
-.SidebarIcon p {
-  color: white;
-}
-
 .SidebarList {
   height: auto;
   padding: 0;

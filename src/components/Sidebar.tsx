@@ -3,7 +3,7 @@ import "./Sidebar.css";
 import SidebarData from "./SidebarData";
 import SidebarIcon from "./SidebarIcon";
 
-function Sidebar() {
+const Sidebar: React.FC<{}> = () => {
   return (
     <div className="Sidebar">
       <SidebarIcon />
@@ -24,6 +24,6 @@ function Sidebar() {
       </ul>
     </div>
   );
-}
+};
 
 export default Sidebar;
