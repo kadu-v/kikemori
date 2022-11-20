@@ -1,14 +1,16 @@
 import React from "react";
 import "./Sidebar.css";
-import SidebarData from "./SidebarData";
+import { ContentDataType } from "./ContentData";
 import SidebarIcon from "./SidebarIcon";
 
-const Sidebar: React.FC<{}> = () => {
+const Sidebar: React.FC<{
+  sidebarData: Array<ContentDataType>;
+}> = (props) => {
   return (
     <div className="Sidebar">
       <SidebarIcon />
       <ul className="SidebarList">
-        {SidebarData.map((value, key) => {
+        {props.sidebarData.map((value, key) => {
           return (
             <li
               key={key}

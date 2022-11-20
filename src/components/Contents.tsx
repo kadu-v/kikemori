@@ -1,33 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "github-markdown-css";
 import "./Contents.css";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import HomeMarkDown from "../contents/home.md";
-import HobbyMarkDown from "../contents/hobby.md";
-import PublicationsMarkDown from "../contents/publications.md";
 
-const ContentsData: Map<string, URL> = new Map([
-  ["/home", HomeMarkDown],
-  ["/publications", PublicationsMarkDown],
-  ["/works", HobbyMarkDown],
-]);
-
-const Contents: React.FC<{ link: string }> = (props) => {
-  const [markdown, setState] = useState("# Not found");
-
-  useEffect(() => {
-    fetch(ContentsData.get(props.link) ?? HomeMarkDown)
-      .then((response) => response.text())
-      .then((text) => {
-        setState(text);
-      });
-  }, [props.link]);
-
+const Contents: React.FC<{ markdown: string }> = (props) => {
   return (
     <ReactMarkdown
       className="markdown-body Contents"
-      children={markdown}
+      children={props.markdown}
       remarkPlugins={[remarkGfm]}
     />
   );
