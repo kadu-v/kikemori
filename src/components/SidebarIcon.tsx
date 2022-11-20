@@ -2,6 +2,7 @@ import Icon from "../images/icon.png";
 import "./SidebarIcon.css";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 import React from "react";
 import Link from "@mui/material/Link";
 
@@ -9,8 +10,12 @@ const SidebarIcon: React.FC<{}> = () => {
   return (
     <div className="SidebarIcon">
       <img src={Icon} alt="kadu-v" />
-      <p>k.ikrmoi.aa[at]gmail.com</p>
       <div className="SNSIcons">
+        <div className="SNSIcon">
+          <Link href="mailto:xxx" color="inherit">
+            <EmailIcon fontSize="large" />
+          </Link>
+        </div>
         <div className="SNSIcon">
           <Link href="https://twitter.com/kadu_vv" color="inherit">
             <TwitterIcon fontSize="large" />

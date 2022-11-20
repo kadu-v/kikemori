@@ -4,13 +4,13 @@ import "./Contents.css";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import HomeMarkDown from "../contents/home.md";
-import WorksMarkDown from "../contents/works.md";
+import HobbyMarkDown from "../contents/hobby.md";
 import PublicationsMarkDown from "../contents/publications.md";
 
 const ContentsData: Map<string, URL> = new Map([
   ["/home", HomeMarkDown],
   ["/publications", PublicationsMarkDown],
-  ["/works", WorksMarkDown],
+  ["/works", HobbyMarkDown],
 ]);
 
 const Contents: React.FC<{ link: string }> = (props) => {

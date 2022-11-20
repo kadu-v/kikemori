@@ -15,9 +15,9 @@ const SidebarData = [
     link: "/publications",
   },
   {
-    title: "Works",
+    title: "Hobby",
     icon: <ConstructionIcon />,
-    link: "/works",
+    link: "/hobby",
   },
 ];
 export default SidebarData;
