@@ -18,7 +18,7 @@
   人類には難しい Zynq で組込み Rust \~株式会社ネフロック (twitter: @nefrock_inc)\~  
   ([youtube](https://www.youtube.com/watch?v=MkanIDrHcGY&t=226s), [slide](https://speakerdeck.com/ikemori/ren-lei-nihanan-siizynqdezu-miip-mirust))
 
-## Poseters
+## Posters
 
 - 代数的エフェクトを特徴に持つ計算体系へのエフェクト強制の導入と健全性の証明  
   池守 和槻, 叢 悠悠, 増原 英彦  
