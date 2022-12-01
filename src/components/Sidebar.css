@@ -1,5 +1,5 @@
 .Sidebar {
-  width: 250px;
+  width: 300px;
   min-height: 100vh;
   height: auto;
   background-color: darkslategray;
@@ -31,11 +31,11 @@
 }
 
 .row #icon {
-  flex: 30%;
+  flex: 40%;
   display: grid;
   place-items: center;
 }
 
 .row #title {
-  flex: 70%;
+  flex: 60%;
 }
