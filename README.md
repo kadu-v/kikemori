@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+This is my page [https://kadu-v.github.io/kikemori/](https://kadu-v.github.io/kikemori/).
+I made a sitemap using this [sitemap generator](https://www.xml-sitemaps.com/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
