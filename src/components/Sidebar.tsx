@@ -24,6 +24,7 @@ const Sidebar: React.FC<{
           );
         })}
       </ul>
+      <footer>&copy; 2022 Kazuki Ikemori</footer>
     </div>
   );
 };
