@@ -4,6 +4,8 @@ import { ContentDataType } from "./ContentData";
 import SidebarIcon from "./SidebarIcon";
 
 const Sidebar: React.FC<{
+  curLink: string;
+  setCurLink: React.Dispatch<React.SetStateAction<string>>;
   sidebarData: Array<ContentDataType>;
 }> = (props) => {
   return (
@@ -15,8 +17,12 @@ const Sidebar: React.FC<{
             <li
               key={key}
               className="row"
-              id={window.location.pathname === value.link ? "active" : ""}
-              onClick={() => (window.location.pathname = value.link)}
+              id={props.curLink === value.link ? "active" : ""}
+              onClick={() =>
+                props.setCurLink((prev) => {
+                  return value.link;
+                })
+              }
             >
               <div id="icon">{value.icon}</div>
               <div id="title">{value.title}</div>
