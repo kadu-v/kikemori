@@ -8,7 +8,6 @@ import ContentData from "./components/ContentData";
 
 const findContent = (data: Array<ContentDataType>, link: string): "*.md" => {
   return data.reduce((acc, e) => {
-    console.log(e.link, link);
     if (e.link === link) {
       return e.markdown;
     } else {
@@ -20,7 +19,6 @@ const findContent = (data: Array<ContentDataType>, link: string): "*.md" => {
 function App() {
   const [markDown, setMarkDown] = useState("# Not found");
   const [curLink, setCurLink] = useState("/home");
-  console.log(curLink);
   useEffect(() => {
     fetch(findContent(ContentData, curLink) ?? HomeMarkDown)
       .then((response) => response.text())
