@@ -12,7 +12,7 @@
   **Kazuki Ikemori**, Youyou Cong, Hidehiko Masuhara, and Daan Leijen  
   ([TFP 2022 (online)](https://trendsfp.github.io/2022/), [doi: (in the publishing process)], peer-reviewed)
 
-## Posters
+## Poster
 
 - 代数的エフェクトを特徴に持つ計算体系へのエフェクト強制の導入と健全性の証明  
   **池守 和槻**, 叢 悠悠, 増原 英彦  
