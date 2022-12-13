@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/kikemori/static/css/main.60a7fb22.css",
-    "main.js": "/kikemori/static/js/main.9535568c.js",
+    "main.js": "/kikemori/static/js/main.7029ad7f.js",
     "static/js/787.a154164c.chunk.js": "/kikemori/static/js/787.a154164c.chunk.js",
     "static/media/icon.png": "/kikemori/static/media/icon.bd771981f868f16a4c7c.png",
-    "static/media/publications.md": "/kikemori/static/media/publications.6a534b7f490b3980bcce.md",
+    "static/media/publications.md": "/kikemori/static/media/publications.9e76ddbc5c23eb8734f1.md",
     "static/media/home.md": "/kikemori/static/media/home.b46537de467f8b08dee2.md",
     "index.html": "/kikemori/index.html",
     "static/media/hobby.md": "/kikemori/static/media/hobby.2ea6a2636e550607aad8.md",
     "main.60a7fb22.css.map": "/kikemori/static/css/main.60a7fb22.css.map",
-    "main.9535568c.js.map": "/kikemori/static/js/main.9535568c.js.map",
+    "main.7029ad7f.js.map": "/kikemori/static/js/main.7029ad7f.js.map",
     "787.a154164c.chunk.js.map": "/kikemori/static/js/787.a154164c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60a7fb22.css",
-    "static/js/main.9535568c.js"
+    "static/js/main.7029ad7f.js"
   ]
 }
