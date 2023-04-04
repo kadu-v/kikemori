@@ -17,19 +17,23 @@ const findContent = (data: Array<ContentDataType>, link: string): "*.md" => {
 };
 
 function App() {
-  const [markDown, setState] = useState("# Not found");
-
+  const [markDown, setMarkDown] = useState("# Not found");
+  const [curLink, setCurLink] = useState("/home");
   useEffect(() => {
-    fetch(findContent(ContentData, window.location.pathname) ?? HomeMarkDown)
+    fetch(findContent(ContentData, curLink) ?? HomeMarkDown)
       .then((response) => response.text())
       .then((text) => {
-        setState(text);
+        setMarkDown(text);
       });
-  }, []);
+  }, [curLink]);
 
   return (
     <div className="App">
-      <Sidebar sidebarData={ContentData} />
+      <Sidebar
+        curLink={curLink}
+        setCurLink={setCurLink}
+        sidebarData={ContentData}
+      />
       <Contents markdown={markDown} />
     </div>
   );

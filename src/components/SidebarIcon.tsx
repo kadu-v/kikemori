@@ -11,6 +11,7 @@ const SidebarIcon: React.FC<{}> = () => {
   return (
     <div className="SidebarIcon">
       <img src={Icon} alt="kadu-v" />
+      <p>Kazuki Ikemori</p>
       <div className="SNSIcons">
         {/* <div className="SNSIcon">
           <Link href="x" color="inherit">
@@ -18,7 +19,7 @@ const SidebarIcon: React.FC<{}> = () => {
           </Link>
         </div> */}
         <div className="SNSIcon">
-          <Link href="mailto:xxx" color="inherit">
+          <Link href="mailto:ikemori.k.aa@prg.titech.ac.jp" color="inherit">
             <EmailIcon fontSize="large" />
           </Link>
         </div>
