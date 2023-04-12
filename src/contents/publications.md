@@ -10,7 +10,7 @@
 
 - Sound and Complete Type Inference for Closed Effect Rows (peer-reviewed)  
   **Kazuki Ikemori**, Youyou Cong, Hidehiko Masuhara, and Daan Leijen  
-  ([TFP 2022 (online)](https://trendsfp.github.io/2022/), [doi: (in the publishing process)], peer-reviewed)
+  ([TFP 2022 (online)](https://trendsfp.github.io/2022/), \[[doi](https://www.springerprofessional.de/en/sound-and-complete-type-inference-for-closed-effect-rows/23873060)\])
 
 ## Poster
 
