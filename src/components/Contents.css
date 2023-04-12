@@ -9,3 +9,9 @@
   padding-right: 50px;
   padding-bottom: 40px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .Contents {
+    background-color: #000;
+  }
+}
