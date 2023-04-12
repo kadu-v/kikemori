@@ -2,7 +2,7 @@
 
 I love the low level programming, such as OS, Compiler and FPGA.
 
-## GUI for an eEmbedded OS of Raspberry Pi
+## GUI for an Embedded OS of Raspberry Pi
 
 I extended an embeded os for raspberry pi with GUI (i.e., frame buffer).
 I am planing to extend it with more features.
