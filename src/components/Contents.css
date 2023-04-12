@@ -1,7 +1,9 @@
 .Contents {
   font-family: Georgia, serif;
+  max-width: 50%;
   width: 100%;
   padding-top: 30px;
   padding-left: 30px;
+  padding-right: 50px;
   padding-bottom: 40px;
 }
