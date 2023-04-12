@@ -14,7 +14,7 @@ I'm trying to implement a [Hack PC](https://www.nand2tetris.org/) by a Chisel th
 If you are interested in my project, Please check the follwing materials:
 
 - [Hack CPU in Chisel](https://github.com/nishi-7/ChiselHackCPU).
-- [Hack Assembler in Scala](git@github.com:nishi-7/Assembler.git)
+- [Hack Assembler in Scala](https://github.com/nishi-7/Assembler)
 
 ## Rust on FPGA
 
