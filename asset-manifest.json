@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kikemori/static/css/main.4b241a05.css",
+    "main.css": "/kikemori/static/css/main.e75715fc.css",
     "main.js": "/kikemori/static/js/main.ee4720ad.js",
     "static/js/787.a154164c.chunk.js": "/kikemori/static/js/787.a154164c.chunk.js",
     "static/media/icon.png": "/kikemori/static/media/icon.bd771981f868f16a4c7c.png",
@@ -8,12 +8,12 @@
     "static/media/publications.md": "/kikemori/static/media/publications.6f8fb1bc790f260fc502.md",
     "static/media/home.md": "/kikemori/static/media/home.b46537de467f8b08dee2.md",
     "index.html": "/kikemori/index.html",
-    "main.4b241a05.css.map": "/kikemori/static/css/main.4b241a05.css.map",
+    "main.e75715fc.css.map": "/kikemori/static/css/main.e75715fc.css.map",
     "main.ee4720ad.js.map": "/kikemori/static/js/main.ee4720ad.js.map",
     "787.a154164c.chunk.js.map": "/kikemori/static/js/787.a154164c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b241a05.css",
+    "static/css/main.e75715fc.css",
     "static/js/main.ee4720ad.js"
   ]
 }
