@@ -12,6 +12,14 @@
 
 @media (prefers-color-scheme: dark) {
   .Contents {
-    background-color: #00000000;
+    color: white;
+    background-color: black;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .Contents {
+    color: black;
+    background-color: white;
   }
 }

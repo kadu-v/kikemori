@@ -4,6 +4,10 @@ I made a sitemap using this [sitemap generator](https://www.xml-sitemaps.com/).
 ## How to use
 
 ```
+yarn install
+```
+
+```
 $ yarn build
 ```
 
