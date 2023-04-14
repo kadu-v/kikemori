@@ -11,6 +11,12 @@
 
 @media (prefers-color-scheme: dark) {
   .App {
-    background-color: #000;
+    background-color: black;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .App {
+    background-color: white;
   }
 }
